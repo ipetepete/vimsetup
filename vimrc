@@ -7,6 +7,8 @@ filetype plugin on
 filetype indent on
 set autoread
 
+set laststatus=2
+
 " Mo'better mode switching
 inoremap jk <ESC> 
 let mapleader = ","
