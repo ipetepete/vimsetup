@@ -10,3 +10,12 @@ After cloning this repo...
 
 Leader key has been mapped to ","
 
+
+### For more tips
+
+[ http://www.danielmiessler.com/study/vim ]( http://www.danielmiessler.com/study/vim )
+
+[ http://bencrowder.net/files/vim-fu/ ] (http://bencrowder.net/files/vim-fu/) _Great cheat-sheet_
+
+[ http://www.vimninjas.com/ ] ( http://www.vimninjas.com/ )
+
