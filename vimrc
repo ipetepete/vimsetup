@@ -1,12 +1,30 @@
 set nocompatible
 " Plugin loader
-execute pathogen#infect()
-set ruler
-syntax on
-filetype plugin on
-filetype indent on
+filetype off
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
+
+Plugin 'gmarik/vundle'    " Required
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'wakatime/vim-wakatime'
+
+call vundle#end()
+
+filetype plugin indent on
+set background=dark
+syntax enable 
+set number
+
+let g:solarized_termcolors = 256  " New line!!
+"let g:solarized_termcolors = 16
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized
+
 set autoread
 
+set ruler
 set laststatus=2
 
 " Mo'better mode switching
