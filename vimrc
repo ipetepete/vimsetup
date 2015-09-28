@@ -8,8 +8,12 @@ call vundle#begin()
 Plugin 'gmarik/vundle'    " Required
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'wakatime/vim-wakatime'
-
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'easymotion/vim-easymotion'
 call vundle#end()
+
+" Map for easymotion (:help easymotion.txt)
+map \ <Plug>(easymotion-prefix)
 
 filetype plugin indent on
 set background=dark
