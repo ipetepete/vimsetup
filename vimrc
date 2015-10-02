@@ -10,6 +10,8 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'wakatime/vim-wakatime'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'easymotion/vim-easymotion'
+Bundle 'mattn/emmet-vim'
+
 call vundle#end()
 
 " Map for easymotion (:help easymotion.txt)
@@ -46,7 +48,10 @@ set incsearch
 
 " text
 set ai "Auto Indent"
-set si "Smart indeno
-
+set tabstop=2
+" when indenting with '>', use 4 spaces width
+set shiftwidth=2
+" " On pressing tab, insert 4 spaces
+set expandtab
 
 
