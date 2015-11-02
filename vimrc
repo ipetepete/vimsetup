@@ -21,6 +21,7 @@ filetype plugin indent on
 set background=dark
 syntax enable 
 set number
+set clipboard=unnamed
 
 let g:solarized_termcolors = 256  " New line!!
 "let g:solarized_termcolors = 16
@@ -32,6 +33,7 @@ set autoread
 
 set ruler
 set laststatus=2
+set statusline=%-10.3n  "buffer number
 
 " Mo'better mode switching
 inoremap jk <ESC> 
