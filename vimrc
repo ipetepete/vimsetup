@@ -7,10 +7,11 @@ call vundle#begin()
 
 Plugin 'gmarik/vundle'    " Required
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'wakatime/vim-wakatime'
+" Bundle 'wakatime/vim-wakatime'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'easymotion/vim-easymotion'
 Bundle 'mattn/emmet-vim'
+" Plugin 'wincent/command-t'
 
 call vundle#end()
 
@@ -56,4 +57,5 @@ set shiftwidth=2
 " " On pressing tab, insert 4 spaces
 set expandtab
 
+set path=$PWD/**
 
