@@ -11,6 +11,8 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'easymotion/vim-easymotion'
 Bundle 'mattn/emmet-vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-surround'
 " Plugin 'wincent/command-t'
 
 call vundle#end()
@@ -37,7 +39,7 @@ set laststatus=2
 set statusline=%-10.3n  "buffer number
 
 " Mo'better mode switching
-inoremap jk <ESC> 
+inoremap jj <ESC> 
 let mapleader = ","
 
 " Set 7 Lines for vertical cursor movement"
