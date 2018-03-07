@@ -5,8 +5,10 @@ After cloning this repo...
     ln -s ~/.vim/vimrc ~/.vimrc
 	
 Checkout the vundle submodule
+
+    git submodule init
     
-    git submodule update --checkout
+    git submodule update
    
 Install vim plugins
    
